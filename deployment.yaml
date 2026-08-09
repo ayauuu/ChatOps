@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smart-chatops-backend
+  labels:
+    app: smart-chatops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: smart-chatops
+  template:
+    metadata:
+      labels:
+        app: smart-chatops
+    spec:
+      containers:
+      - name: backend
+        image: smart-chatops:latest
+        ports:
+        - containerPort: 8000
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
