@@ -2,7 +2,6 @@
 
 Un agent d'intelligence artificielle intégré à **Discord**, capable de diagnostiquer et d'agir sur une infrastructure — **Kubernetes** et **AWS** — directement en langage naturel.
 
-Projet réalisé dans le cadre d'un stage d'été chez **Talan**.
 
 ---
 
@@ -128,6 +127,3 @@ ou les performances des services pour aller plus loin.
 
 ---
 
-## 👤 Auteur
-
-Projet réalisé par **[Ton nom]** dans le cadre d'un stage d'été chez Talan.
